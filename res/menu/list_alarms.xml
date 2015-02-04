@@ -1,0 +1,13 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.lightwake.ListAlarms" >
+
+    <item
+        android:id="@+id/action_add_new_alarm"
+        android:orderInCategory="100"
+		android:icon="@drawable/action_bar_done"
+        android:title="@string/action_bar_add_alarm"      
+        app:showAsAction="always"/>
+
+</menu>
